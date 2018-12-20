@@ -1,0 +1,47 @@
+@import '../../scss-base.scss';
+.cp-comment{
+  padding: 20px 12px;
+  background-color: #fff;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  .icon{
+    width: 25px;
+    height: 25px;
+  }
+  .right{
+    margin-left: 35px;
+  }
+  .title{
+    *{
+      word-break: break-word;
+    }
+    font-size: 15px;
+    line-height: 21px;
+    color: #4a4a4a;
+  }
+  .time{
+    color: #bbbbbb;
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .by{
+    color: #444444;
+    font-size: 12px;
+    line-height: 25px;
+  }
+  .bottom-right-info{
+    position: absolute;
+    right: 12px;
+    bottom: 20px;
+    p{
+      color:#777;
+      font-size: 12px;
+      line-height: 25px;
+      margin-right: 5px;
+    }
+    p:last-child{
+      margin-right: 0px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+// Base
+@import './reset.scss';
+@import './base.scss';
+@import './scss-base.scss';
+// libs
+// containers
+@import './containers/stories.scss';
+@import './containers/comments.scss';
+// components
+@import './components/base/tabs.scss';
+@import './components/bussiness/story.scss';
+@import './components/bussiness/comment.scss';

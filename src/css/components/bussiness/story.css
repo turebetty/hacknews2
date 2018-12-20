@@ -1,0 +1,34 @@
+.cp-story {
+  padding: 20px 12px;
+  background-color: #fff;
+  display: block;
+  overflow: hidden;
+  position: relative; }
+  .cp-story .icon {
+    width: 25px;
+    height: 25px; }
+  .cp-story .right {
+    margin-left: 35px; }
+  .cp-story .title {
+    font-size: 15px;
+    line-height: 21px;
+    color: #834C4C; }
+  .cp-story .time {
+    color: #bbbbbb;
+    font-size: 12px;
+    line-height: 17px; }
+  .cp-story .by {
+    color: #444444;
+    font-size: 12px;
+    line-height: 25px; }
+  .cp-story .bottom-right-info {
+    position: absolute;
+    right: 12px;
+    bottom: 20px; }
+    .cp-story .bottom-right-info p {
+      color: #777;
+      font-size: 12px;
+      line-height: 25px;
+      margin-right: 5px; }
+    .cp-story .bottom-right-info p:last-child {
+      margin-right: 0px; }

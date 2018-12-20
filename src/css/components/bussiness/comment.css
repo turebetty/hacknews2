@@ -1,0 +1,36 @@
+.cp-comment {
+  padding: 20px 12px;
+  background-color: #fff;
+  display: block;
+  overflow: hidden;
+  position: relative; }
+  .cp-comment .icon {
+    width: 25px;
+    height: 25px; }
+  .cp-comment .right {
+    margin-left: 35px; }
+  .cp-comment .title {
+    font-size: 15px;
+    line-height: 21px;
+    color: #4a4a4a; }
+    .cp-comment .title * {
+      word-break: break-word; }
+  .cp-comment .time {
+    color: #bbbbbb;
+    font-size: 12px;
+    line-height: 17px; }
+  .cp-comment .by {
+    color: #444444;
+    font-size: 12px;
+    line-height: 25px; }
+  .cp-comment .bottom-right-info {
+    position: absolute;
+    right: 12px;
+    bottom: 20px; }
+    .cp-comment .bottom-right-info p {
+      color: #777;
+      font-size: 12px;
+      line-height: 25px;
+      margin-right: 5px; }
+    .cp-comment .bottom-right-info p:last-child {
+      margin-right: 0px; }

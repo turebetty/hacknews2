@@ -1,0 +1,70 @@
+@import './reset.scss';
+
+$font-stack: -apple-system-font,"PingFang SC","Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+
+body,html{
+  height: 100%;
+  width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body{
+  background:#fff;
+  max-width: 640px;
+  margin: 0 auto;
+  font-family: $font-stack;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+a{
+  -webkit-tap-highlight-color:rgba(255,255,255,0);
+  cursor: pointer;
+  background: transparent;
+  text-decoration: none;
+  color:#444;
+}
+a, img{
+  -webkit-touch-callout: none;
+}
+a:active,a:hover{
+  outline: 0;
+}
+img{
+  display: block;
+}
+.clr{
+  zoom:1
+}
+.clr:after{
+  content:"\0020";
+  display:block;
+  height:0;
+  overflow:hidden;
+  clear:both;
+}
+.l{
+  float: left;
+}
+.r{
+  float: right;
+}
+.border{
+  height: 1px;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  background-position: bottom;
+}
+.blackBorderTop {
+  @extend .border;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08) 50%, transparent 50%);
+}
+.blackBorderBottom {
+  @extend .border;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08) 50%, transparent 50%);
+}

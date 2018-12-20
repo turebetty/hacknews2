@@ -1,0 +1,52 @@
+.pg-comments .parent {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 125px;
+  overflow: hidden;
+  z-index: 99;
+  background-color: #fff; }
+  .pg-comments .parent .cp-story-box {
+    width: 100%;
+    max-width: 640px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    display: table;
+    position: absolute;
+    display: block; }
+    .pg-comments .parent .cp-story-box .title {
+      height: 42px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical; }
+  .pg-comments .parent .cp-comment-box {
+    width: 100%;
+    max-width: 640px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    display: table;
+    position: absolute;
+    display: block; }
+  .pg-comments .parent .cp-comment .title {
+    max-height: 42px;
+    height: 42px;
+    color: #834C4C;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; }
+
+.pg-comments ul {
+  padding-top: 125px; }

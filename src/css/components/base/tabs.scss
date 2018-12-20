@@ -1,0 +1,48 @@
+@import '../../scss-base.scss';
+#cp-tabs{
+  background-color: #fff;
+  &.fixed{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  .cp-tabs{
+    @include centerX();
+    display: block;
+    max-width: 640px;
+    margin: 0px 12px;
+    position: relative;
+    overflow: hidden;
+    ul {
+      li {
+        cursor: pointer;
+        display: inline-block;
+        float: left;
+        width: 20%;
+        height: 44px;
+        -webkit-tap-highlight-color: transparent;
+        tap-highlight-color: transparent;
+        text-align:center;
+        span{
+          line-height: 44px;
+          font-size:14px;
+          color: #777;
+          height: 44px;
+          display: inline-block;
+          min-width: 60px;
+          &.on{
+            color: #ff7d7c;
+            box-sizing: border-box;
+          }
+          &.underline{
+            border-bottom: 2px solid #ff7d7c;
+          }
+        }
+      }
+    }
+  }
+}

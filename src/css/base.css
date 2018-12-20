@@ -1,0 +1,83 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+del {
+  text-decoration: line-through; }
+
+ol, ul {
+  list-style: none; }
+
+li {
+  vertical-align: middle; }
+
+body, html {
+  height: 100%;
+  width: 100%; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background: #fff;
+  max-width: 640px;
+  margin: 0 auto;
+  font-family: -apple-system-font, "PingFang SC", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+a {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  background: transparent;
+  text-decoration: none;
+  color: #444; }
+
+a, img {
+  -webkit-touch-callout: none; }
+
+a:active, a:hover {
+  outline: 0; }
+
+img {
+  display: block; }
+
+.clr {
+  zoom: 1; }
+
+.clr:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both; }
+
+.l {
+  float: left; }
+
+.r {
+  float: right; }
+
+.border, .blackBorderTop, .blackBorderBottom {
+  height: 1px;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  background-position: bottom; }
+
+.blackBorderTop {
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08) 50%, transparent 50%); }
+
+.blackBorderBottom {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08) 50%, transparent 50%); }

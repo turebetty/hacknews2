@@ -1,0 +1,47 @@
+//多行文本溢出显示...
+@mixin  ellipsis($line:1){
+  @if $line == 1{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+  }
+  @if $line >1{
+      overflow : hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: $line;
+      -webkit-box-orient: vertical;
+  }
+}
+//垂直水平居中
+@mixin centerXY(){
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    display: table;
+    position: absolute;
+}
+@mixin centerX(){
+    left: 50%;
+    transform: translate(-50%,0%);
+    -ms-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    -webkit-transform: translate(-50%,0%);
+    -o-transform: translate(-50%,0%);
+    display: table;
+    position: absolute;
+}
+@mixin centerY(){
+    top: 50%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+    -moz-transform: translate(0%,-50%);
+    -webkit-transform: translate(0%,-50%);
+    -o-transform: translate(0%,-50%);
+    display: table;
+    position: absolute;
+}
