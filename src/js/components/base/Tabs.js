@@ -9,6 +9,7 @@ export default class Taps extends Component {
     super(props)
   }
   componentDidMount() {
+    console.log('test');
     const { tapItems } = this.props;
     if (tapItems.length > 0) {
       let $tabItems = document.querySelectorAll('.cp-tabs li');
